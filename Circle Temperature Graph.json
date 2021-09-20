@@ -1,0 +1,526 @@
+{
+  "creationTimeStamp": "2021-09-20T08:30:55.259Z",
+  "modifiedTimeStamp": "2021-09-20T08:30:56.071Z",
+  "createdBy": "sbjciw",
+  "modifiedBy": "sbjciw",
+  "links": [
+    {
+      "method": "GET",
+      "rel": "self",
+      "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef",
+      "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef",
+      "type": "application/vnd.sas.transfer.package"
+    },
+    {
+      "method": "GET",
+      "rel": "alternate",
+      "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef",
+      "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef",
+      "type": "application/vnd.sas.transfer.package.summary"
+    },
+    {
+      "method": "DELETE",
+      "rel": "delete",
+      "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef",
+      "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef"
+    },
+    {
+      "method": "GET",
+      "rel": "objects",
+      "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/objects",
+      "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/objects",
+      "type": "application/vnd.sas.collection"
+    },
+    {
+      "method": "GET",
+      "rel": "connectors",
+      "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/connectors",
+      "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/connectors",
+      "type": "application/vnd.sas.collection"
+    },
+    {
+      "method": "GET",
+      "rel": "mapping",
+      "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/mapping",
+      "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/mapping",
+      "type": "application/vnd.sas.transfer.import.mapping"
+    }
+  ],
+  "version": 1,
+  "id": "1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef",
+  "name": "Circle Temperature Graph",
+  "description": "",
+  "options": {
+    "includeDependencies": "false",
+    "includeRules": "true"
+  },
+  "requestedItems": [
+    "/graphTemplates/graphTemplates/89de81d0-1266-43ba-bea1-e10bd7be58d7"
+  ],
+  "transferObjectCount": 4,
+  "transferDetails": [
+    {
+      "transferObject": {
+        "links": [
+          {
+            "method": "GET",
+            "rel": "self",
+            "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/objects/3984aed2-7e15-4294-94fb-9804826f4aed",
+            "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/objects/3984aed2-7e15-4294-94fb-9804826f4aed",
+            "type": "application/vnd.sas.transfer.object"
+          }
+        ],
+        "version": 2,
+        "id": "3984aed2-7e15-4294-94fb-9804826f4aed",
+        "summary": {
+          "creationTimeStamp": "2021-09-20T04:12:02.352Z",
+          "modifiedTimeStamp": "2021-09-20T04:20:17.164Z",
+          "createdBy": "sbjciw",
+          "modifiedBy": "sbjciw",
+          "id": "89de81d0-1266-43ba-bea1-e10bd7be58d7",
+          "type": "graphtemplate",
+          "name": "Circle Graph label",
+          "links": [
+            {
+              "method": "GET",
+              "rel": "self",
+              "href": "/graphTemplates/graphTemplates/89de81d0-1266-43ba-bea1-e10bd7be58d7",
+              "uri": "/graphTemplates/graphTemplates/89de81d0-1266-43ba-bea1-e10bd7be58d7",
+              "type": "application/vnd.sas.graph.template"
+            },
+            {
+              "method": "GET",
+              "rel": "alternate",
+              "href": "/graphTemplates/graphTemplates/89de81d0-1266-43ba-bea1-e10bd7be58d7",
+              "uri": "/graphTemplates/graphTemplates/89de81d0-1266-43ba-bea1-e10bd7be58d7",
+              "type": "application/vnd.sas.summary"
+            }
+          ],
+          "version": 1
+        },
+        "content": "eyJjcmVhdGlvblRpbWVTdGFtcCI6IjIwMjEtMDktMjBUMDQ6MTI6MDIuMzUyMVoiLCJjcmVhdGVkQnkiOiJzYmpjaXciLCJtb2RpZmllZFRpbWVTdGFtcCI6IjIwMjEtMDktMjBUMDQ6MjA6MTcuMTY0OTA5WiIsIm1vZGlmaWVkQnkiOiJzYmpjaXciLCJ2ZXJzaW9uIjoxLCJpZCI6Ijg5ZGU4MWQwLTEyNjYtNDNiYS1iZWExLWUxMGJkN2JlNThkNyIsIm5hbWUiOiJDaXJjbGUgR3JhcGggbGFiZWwiLCJ1cmkiOiIvZ3JhcGhUZW1wbGF0ZXMvZ3JhcGhUZW1wbGF0ZXMvODlkZTgxZDAtMTI2Ni00M2JhLWJlYTEtZTEwYmQ3YmU1OGQ3IiwiY29udGVudCI6Ilx1MDAzY0dyYXBoVGVtcGxhdGVcdTAwM2VcdTAwM2NTdGF0R3JhcGggYm9yZGVyPVwiZmFsc2VcIiBvcGFxdWU9XCJmYWxzZVwiIGluY2x1ZGVNaXNzaW5nRGlzY3JldGU9XCJ0cnVlXCIgbWlzc2luZ1ZhbHVlRGlzcGxheT1cImF1dG9sYWJlbFwiIGRpc3BsYXlPcHRpb25Qb2xpY3k9XCJ1bmlvblwiXHUwMDNlXHUwMDNjTWV0YVx1MDAzZVx1MDAzY0R5blZhcnNcdTAwM2VcdTAwM2NEeW5WYXIgbmFtZT1cIkRZTlZBUl80XCIgZGVzY3JpcHRpb249XCLlkJHph4/lm74gMSBYIOWOn+eCuVwiIHJlcXVpcmVkPVwidHJ1ZVwiIGFzc2lnbmVkVHlwZT1cIm51bWVyaWNcIiB0eXBlPVwibnVtZXJpY1wiIG11bHRpcGxlc0FsbG93ZWQ9XCJmYWxzZVwiL1x1MDAzZVx1MDAzY0R5blZhciBuYW1lPVwiRFlOVkFSXzVcIiBkZXNjcmlwdGlvbj1cIuWQkemHj+WbviAxIFkg5Y6f54K5XCIgcmVxdWlyZWQ9XCJ0cnVlXCIgYXNzaWduZWRUeXBlPVwibnVtZXJpY1wiIHR5cGU9XCJudW1lcmljXCIgbXVsdGlwbGVzQWxsb3dlZD1cImZhbHNlXCIvXHUwMDNlXHUwMDNjRHluVmFyIG5hbWU9XCJTSEFSRURfRFlOVkFSXzBcIiBkZXNjcmlwdGlvbj1cIkxhYmVsIExvY2F0aW9uIFhcIiByZXF1aXJlZD1cInRydWVcIiBhc3NpZ25lZFR5cGU9XCJudW1lcmljXCIgdHlwZT1cIm51bWVyaWNcIiBtdWx0aXBsZXNBbGxvd2VkPVwiZmFsc2VcIi9cdTAwM2VcdTAwM2NEeW5WYXIgbmFtZT1cIkRZTlZBUl83XCIgZGVzY3JpcHRpb249XCLlkJHph4/lm74gMiBZXCIgcmVxdWlyZWQ9XCJ0cnVlXCIgYXNzaWduZWRUeXBlPVwibnVtZXJpY1wiIHR5cGU9XCJudW1lcmljXCIgbXVsdGlwbGVzQWxsb3dlZD1cImZhbHNlXCIvXHUwMDNlXHUwMDNjRHluVmFyIG5hbWU9XCJEWU5WQVJfMTJcIiBkZXNjcmlwdGlvbj1cIuWQkemHj+WbviAyIFhcIiByZXF1aXJlZD1cInRydWVcIiBhc3NpZ25lZFR5cGU9XCJudW1lcmljXCIgdHlwZT1cIm51bWVyaWNcIiBtdWx0aXBsZXNBbGxvd2VkPVwiZmFsc2VcIi9cdTAwM2VcdTAwM2NEeW5WYXIgbmFtZT1cIlNIQVJFRF9EWU5WQVJfMVwiIGRlc2NyaXB0aW9uPVwiTGFiZWwgTG9jYXRpb24gWVwiIHJlcXVpcmVkPVwidHJ1ZVwiIGFzc2lnbmVkVHlwZT1cIm51bWVyaWNcIiB0eXBlPVwibnVtZXJpY1wiIG11bHRpcGxlc0FsbG93ZWQ9XCJmYWxzZVwiL1x1MDAzZVx1MDAzY0R5blZhciBuYW1lPVwiU0hBUkVEX0RZTlZBUl8yXCIgZGVzY3JpcHRpb249XCJCYXNlbGluZSBYXCIgcmVxdWlyZWQ9XCJ0cnVlXCIgYXNzaWduZWRUeXBlPVwibnVtZXJpY1wiIHR5cGU9XCJudW1lcmljXCIgbXVsdGlwbGVzQWxsb3dlZD1cImZhbHNlXCIvXHUwMDNlXHUwMDNjRHluVmFyIG5hbWU9XCJTSEFSRURfRFlOVkFSXzNcIiBkZXNjcmlwdGlvbj1cIkJhc2VsaW5lIFlcIiByZXF1aXJlZD1cInRydWVcIiBhc3NpZ25lZFR5cGU9XCJudW1lcmljXCIgdHlwZT1cIm51bWVyaWNcIiBtdWx0aXBsZXNBbGxvd2VkPVwiZmFsc2VcIi9cdTAwM2VcdTAwM2NEeW5WYXIgbmFtZT1cIkRZTlZBUl8xM1wiIGRlc2NyaXB0aW9uPVwiQ29sb3JcIiByZXF1aXJlZD1cImZhbHNlXCIgYXNzaWduZWRUeXBlPVwiYW55XCIgdHlwZT1cImNoYXJhY3RlclwiIG11bHRpcGxlc0FsbG93ZWQ9XCJmYWxzZVwiL1x1MDAzZVx1MDAzY0R5blZhciBuYW1lPVwiRFlOVkFSXzE0XCIgZGVzY3JpcHRpb249XCJMYWJlbFwiIHJlcXVpcmVkPVwiZmFsc2VcIiBhc3NpZ25lZFR5cGU9XCJhbnlcIiB0eXBlPVwiYW55XCIgbXVsdGlwbGVzQWxsb3dlZD1cImZhbHNlXCIvXHUwMDNlXHUwMDNjRHluVmFyIG5hbWU9XCJEWU5WQVJfMTVcIiBkZXNjcmlwdGlvbj1cIuWQkemHj+WbviAyIOaVsOaNruaPkOekulwiIHJlcXVpcmVkPVwiZmFsc2VcIiBhc3NpZ25lZFR5cGU9XCJhbnlcIiB0eXBlPVwiYW55XCIgbXVsdGlwbGVzQWxsb3dlZD1cInRydWVcIi9cdTAwM2VcdTAwM2MvRHluVmFyc1x1MDAzZVx1MDAzYy9NZXRhXHUwMDNlXHUwMDNjTGF5b3V0RGF0YU1hdHJpeCBjZWxsSGVpZ2h0TWluPVwiMXB4XCIgY2VsbFdpZHRoTWluPVwiMXB4XCJcdTAwM2VcdTAwM2NMYXlvdXRQcm90b3R5cGVPdmVybGF5MkQgY3ljbGVBdHRycz1cInRydWVcIiBjeWNsZUNvbG9yUmVzcG9uc2VzPVwiZmFsc2VcIiB3YWxsRGlzcGxheT1cIk5PTkVcIlx1MDAzZVx1MDAzY1NjYXR0ZXJQbG90IG5hbWU9XCJTY2F0dGVyUGxvdF8wXCIgdGlwTGlzdFBvbGljeT1cInJlcGxhY2VcIiBpbmNsdWRlTWlzc2luZ0dyb3VwPVwidHJ1ZVwiIHg9XCJTSEFSRURfRFlOVkFSXzBcIiB5PVwiU0hBUkVEX0RZTlZBUl8xXCIgZGF0YUxhYmVsPVwiRFlOVkFSXzE0XCIgY29sb3JNb2RlbD1cIlR3b0NvbG9yUmFtcFwiXHUwMDNlXHUwMDNjTWFya2VyQXR0cnMgc2l6ZT1cIjFweFwiL1x1MDAzZVx1MDAzYy9TY2F0dGVyUGxvdFx1MDAzZVx1MDAzY1ZlY3RvclBsb3QgbmFtZT1cIlZlY3RvclBsb3RfMFwiIHRpcExpc3RQb2xpY3k9XCJyZXBsYWNlXCIgbGVnZW5kTGFiZWw9XCLlkJHph4/lm74gMVwiIGFycm93SGVhZFNoYXBlPVwiY2xvc2VkXCIgYXJyb3dIZWFkcz1cImZhbHNlXCIgeD1cIlNIQVJFRF9EWU5WQVJfMFwiIHk9XCJTSEFSRURfRFlOVkFSXzFcIiB4T3JpZ2luPVwiRFlOVkFSXzRcIiB5T3JpZ2luPVwiRFlOVkFSXzVcIi9cdTAwM2VcdTAwM2NWZWN0b3JQbG90IG5hbWU9XCJWZWN0b3JQbG90XzFcIiB0aXBMaXN0UG9saWN5PVwicmVwbGFjZVwiIGxlZ2VuZExhYmVsPVwi5ZCR6YeP5Zu+IDJcIiBhcnJvd0hlYWRTaGFwZT1cImNsb3NlZFwiIGFycm93SGVhZHM9XCJmYWxzZVwiIHRpcD1cIkRZTlZBUl8xNVwiIHg9XCJEWU5WQVJfMTJcIiB5PVwiRFlOVkFSXzdcIiB4T3JpZ2luPVwiU0hBUkVEX0RZTlZBUl8yXCIgeU9yaWdpbj1cIlNIQVJFRF9EWU5WQVJfM1wiIGdyb3VwPVwiRFlOVkFSXzEzXCIvXHUwMDNlXHUwMDNjU2NhdHRlclBsb3QgbmFtZT1cIlNjYXR0ZXJQbG90XzFcIiB0aXBMaXN0UG9saWN5PVwicmVwbGFjZVwiIGluY2x1ZGVNaXNzaW5nR3JvdXA9XCJ0cnVlXCIgeD1cIlNIQVJFRF9EWU5WQVJfMlwiIHk9XCJTSEFSRURfRFlOVkFSXzNcIiBjb2xvck1vZGVsPVwiVHdvQ29sb3JSYW1wXCJcdTAwM2VcdTAwM2NNYXJrZXJBdHRycyBzaXplPVwiNXB4XCIvXHUwMDNlXHUwMDNjL1NjYXR0ZXJQbG90XHUwMDNlXHUwMDNjWEF4aXNPcHRzIG5hbWU9XCJjYXRlZ29yeUF4aXNcIiBkaXNwbGF5PVwiTk9ORVwiIGdyaWREaXNwbGF5PVwib2ZmXCJcdTAwM2VcdTAwM2NEaXNjcmV0ZU9wdHMgdGlja1ZhbHVlRml0UG9saWN5PVwic3RhZ2dlcnRydW5jYXRlZHJvcFwiIHNvcnRPcmRlcj1cImRhdGFcIi9cdTAwM2VcdTAwM2NMaW5lYXJPcHRzXHUwMDNlXHUwMDNjVGlja1ZhbHVlRm9ybWF0T3B0cyBleHRyYWN0U2NhbGU9XCJ0cnVlXCIvXHUwMDNlXHUwMDNjL0xpbmVhck9wdHNcdTAwM2VcdTAwM2MvWEF4aXNPcHRzXHUwMDNlXHUwMDNjWUF4aXNPcHRzIGRpc3BsYXk9XCJOT05FXCIgZ3JpZERpc3BsYXk9XCJvZmZcIiBsYWJlbFBvc2l0aW9uPVwidG9wXCJcdTAwM2VcdTAwM2NEaXNjcmV0ZU9wdHMgdGlja1ZhbHVlRml0UG9saWN5PVwidGhpblwiIHNvcnRPcmRlcj1cImRhdGFcIi9cdTAwM2VcdTAwM2NMaW5lYXJPcHRzXHUwMDNlXHUwMDNjVGlja1ZhbHVlRm9ybWF0T3B0cyBleHRyYWN0U2NhbGU9XCJ0cnVlXCIvXHUwMDNlXHUwMDNjL0xpbmVhck9wdHNcdTAwM2VcdTAwM2MvWUF4aXNPcHRzXHUwMDNlXHUwMDNjWTJBeGlzT3B0cyBsYWJlbFBvc2l0aW9uPVwidG9wXCJcdTAwM2VcdTAwM2NEaXNjcmV0ZU9wdHMgdGlja1ZhbHVlRml0UG9saWN5PVwidGhpblwiIHNvcnRPcmRlcj1cImRhdGFcIi9cdTAwM2VcdTAwM2NMaW5lYXJPcHRzXHUwMDNlXHUwMDNjVGlja1ZhbHVlRm9ybWF0T3B0cyBleHRyYWN0U2NhbGU9XCJ0cnVlXCIvXHUwMDNlXHUwMDNjL0xpbmVhck9wdHNcdTAwM2VcdTAwM2MvWTJBeGlzT3B0c1x1MDAzZVx1MDAzYy9MYXlvdXRQcm90b3R5cGVPdmVybGF5MkRcdTAwM2VcdTAwM2MvTGF5b3V0RGF0YU1hdHJpeFx1MDAzZVx1MDAzY0xheW91dEdsb2JhbExlZ2VuZCBsZWdlbmRUaXRsZVBvc2l0aW9uPVwidG9wXCIgYWxsb3dDb2xsYXBzZWQ9XCJ0cnVlXCIgdmlzaWJsZT1cIm9mZlwiXHUwMDNlXHUwMDNjQXV0b0xlZ2VuZC9cdTAwM2VcdTAwM2MvTGF5b3V0R2xvYmFsTGVnZW5kXHUwMDNlXHUwMDNjT3ZlcnZpZXdBeGlzIG1heFBsb3RTaXplPVwiNjBweFwiIG1pblBsb3RTaXplPVwiMzVweFwiIHZpc2libGU9XCJvZmZcIiBheGlzPVwiY2F0ZWdvcnlBeGlzXCIvXHUwMDNlXHUwMDNjL1N0YXRHcmFwaFx1MDAzZVx1MDAzYy9HcmFwaFRlbXBsYXRlXHUwMDNlIiwibGlua3MiOlt7Im1ldGhvZCI6IkdFVCIsInJlbCI6InNlbGYiLCJocmVmIjoiL2dyYXBoVGVtcGxhdGVzL2dyYXBoVGVtcGxhdGVzLzg5ZGU4MWQwLTEyNjYtNDNiYS1iZWExLWUxMGJkN2JlNThkNyIsInVyaSI6Ii9ncmFwaFRlbXBsYXRlcy9ncmFwaFRlbXBsYXRlcy84OWRlODFkMC0xMjY2LTQzYmEtYmVhMS1lMTBiZDdiZTU4ZDciLCJ0eXBlIjoiYXBwbGljYXRpb24vdm5kLnNhcy5ncmFwaC50ZW1wbGF0ZSJ9LHsibWV0aG9kIjoiR0VUIiwicmVsIjoiYWx0ZXJuYXRlIiwiaHJlZiI6Ii9ncmFwaFRlbXBsYXRlcy9ncmFwaFRlbXBsYXRlcy84OWRlODFkMC0xMjY2LTQzYmEtYmVhMS1lMTBiZDdiZTU4ZDciLCJ1cmkiOiIvZ3JhcGhUZW1wbGF0ZXMvZ3JhcGhUZW1wbGF0ZXMvODlkZTgxZDAtMTI2Ni00M2JhLWJlYTEtZTEwYmQ3YmU1OGQ3IiwidHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuc3VtbWFyeSJ9LHsibWV0aG9kIjoiUFVUIiwicmVsIjoidXBkYXRlIiwiaHJlZiI6Ii9ncmFwaFRlbXBsYXRlcy9ncmFwaFRlbXBsYXRlcy84OWRlODFkMC0xMjY2LTQzYmEtYmVhMS1lMTBiZDdiZTU4ZDciLCJ1cmkiOiIvZ3JhcGhUZW1wbGF0ZXMvZ3JhcGhUZW1wbGF0ZXMvODlkZTgxZDAtMTI2Ni00M2JhLWJlYTEtZTEwYmQ3YmU1OGQ3IiwidHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuZ3JhcGgudGVtcGxhdGUiLCJyZXNwb25zZVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLmdyYXBoLnRlbXBsYXRlIn0seyJtZXRob2QiOiJERUxFVEUiLCJyZWwiOiJkZWxldGUiLCJocmVmIjoiL2dyYXBoVGVtcGxhdGVzL2dyYXBoVGVtcGxhdGVzLzg5ZGU4MWQwLTEyNjYtNDNiYS1iZWExLWUxMGJkN2JlNThkNyIsInVyaSI6Ii9ncmFwaFRlbXBsYXRlcy9ncmFwaFRlbXBsYXRlcy84OWRlODFkMC0xMjY2LTQzYmEtYmVhMS1lMTBiZDdiZTU4ZDcifSx7Im1ldGhvZCI6IkdFVCIsInJlbCI6ImV4cG9ydCIsImhyZWYiOiIvZ3JhcGhUZW1wbGF0ZXMvZ3JhcGhUZW1wbGF0ZXMvODlkZTgxZDAtMTI2Ni00M2JhLWJlYTEtZTEwYmQ3YmU1OGQ3IiwidXJpIjoiL2dyYXBoVGVtcGxhdGVzL2dyYXBoVGVtcGxhdGVzLzg5ZGU4MWQwLTEyNjYtNDNiYS1iZWExLWUxMGJkN2JlNThkNyIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLnRyYW5zZmVyLm9iamVjdCJ9LHsibWV0aG9kIjoiUFVUIiwicmVsIjoiaW1wb3J0IiwiaHJlZiI6Ii9ncmFwaFRlbXBsYXRlcy9ncmFwaFRlbXBsYXRlcy84OWRlODFkMC0xMjY2LTQzYmEtYmVhMS1lMTBiZDdiZTU4ZDcvY29udGVudCIsInVyaSI6Ii9ncmFwaFRlbXBsYXRlcy9ncmFwaFRlbXBsYXRlcy84OWRlODFkMC0xMjY2LTQzYmEtYmVhMS1lMTBiZDdiZTU4ZDcvY29udGVudCIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLnRyYW5zZmVyLm9iamVjdCIsInJlc3BvbnNlVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuc3VtbWFyeSJ9LHsibWV0aG9kIjoiR0VUIiwicmVsIjoiaW5kZXhhYmxlR3JhcGhUZW1wbGF0ZSIsImhyZWYiOiIvZ3JhcGhUZW1wbGF0ZXMvZ3JhcGhUZW1wbGF0ZXMvODlkZTgxZDAtMTI2Ni00M2JhLWJlYTEtZTEwYmQ3YmU1OGQ3IiwidXJpIjoiL2dyYXBoVGVtcGxhdGVzL2dyYXBoVGVtcGxhdGVzLzg5ZGU4MWQwLTEyNjYtNDNiYS1iZWExLWUxMGJkN2JlNThkNyIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLnNlYXJjaC5pbmRleGFibGUuZGF0YSJ9LHsibWV0aG9kIjoiR0VUIiwicmVsIjoiY29udGVudCIsImhyZWYiOiIvZ3JhcGhUZW1wbGF0ZXMvZ3JhcGhUZW1wbGF0ZXMvODlkZTgxZDAtMTI2Ni00M2JhLWJlYTEtZTEwYmQ3YmU1OGQ3L2NvbnRlbnQiLCJ1cmkiOiIvZ3JhcGhUZW1wbGF0ZXMvZ3JhcGhUZW1wbGF0ZXMvODlkZTgxZDAtMTI2Ni00M2JhLWJlYTEtZTEwYmQ3YmU1OGQ3L2NvbnRlbnQiLCJ0eXBlIjoiYXBwbGljYXRpb24veG1sIn0seyJtZXRob2QiOiJQVVQiLCJyZWwiOiJ1cGRhdGVDb250ZW50IiwiaHJlZiI6Ii9ncmFwaFRlbXBsYXRlcy9ncmFwaFRlbXBsYXRlcy84OWRlODFkMC0xMjY2LTQzYmEtYmVhMS1lMTBiZDdiZTU4ZDcvY29udGVudCIsInVyaSI6Ii9ncmFwaFRlbXBsYXRlcy9ncmFwaFRlbXBsYXRlcy84OWRlODFkMC0xMjY2LTQzYmEtYmVhMS1lMTBiZDdiZTU4ZDcvY29udGVudCIsInR5cGUiOiJhcHBsaWNhdGlvbi94bWwiLCJyZXNwb25zZVR5cGUiOiJhcHBsaWNhdGlvbi94bWwifV19",
+        "state": "enabled",
+        "contentSourceLocation": "/Users/sbjciw/My Folder",
+        "connectors": [],
+        "substitutions": {}
+      },
+      "connectors": [
+        {
+          "id": "7fea0565-3c67-410d-bbf4-7c6b81577bfa",
+          "uri": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782",
+          "relatedUris": [
+            "/graphTemplates/graphTemplates/89de81d0-1266-43ba-bea1-e10bd7be58d7"
+          ],
+          "name": "My Folder",
+          "contentType": "application/vnd.sas.content.folder+json",
+          "type": "parentFolder",
+          "hints": {},
+          "links": [
+            {
+              "method": "GET",
+              "rel": "self",
+              "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/connectors/7fea0565-3c67-410d-bbf4-7c6b81577bfa",
+              "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/connectors/7fea0565-3c67-410d-bbf4-7c6b81577bfa",
+              "type": "application/vnd.sas.transfer.connector"
+            }
+          ],
+          "forceMapping": false
+        }
+      ]
+    },
+    {
+      "transferObject": {
+        "links": [
+          {
+            "method": "GET",
+            "rel": "self",
+            "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/objects/e36c9bc5-170f-4d6e-8923-39b43fb41caa",
+            "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/objects/e36c9bc5-170f-4d6e-8923-39b43fb41caa",
+            "type": "application/vnd.sas.transfer.object"
+          }
+        ],
+        "version": 2,
+        "id": "e36c9bc5-170f-4d6e-8923-39b43fb41caa",
+        "summary": {
+          "creationTimeStamp": "2021-09-17T18:28:43.833Z",
+          "modifiedTimeStamp": "2021-09-17T18:28:43.833Z",
+          "createdBy": "evadm",
+          "modifiedBy": "evadm",
+          "id": "30b53f79-a573-4fb3-a407-38d3d74e3782",
+          "type": "folder",
+          "name": "My Folder",
+          "description": "My Folder for sbjciw",
+          "links": [
+            {
+              "method": "GET",
+              "rel": "self",
+              "href": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782",
+              "uri": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782",
+              "type": "application/vnd.sas.content.folder"
+            },
+            {
+              "method": "DELETE",
+              "rel": "delete",
+              "href": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782",
+              "uri": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782"
+            },
+            {
+              "method": "DELETE",
+              "rel": "deleteRecursively",
+              "href": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782?recursive=true",
+              "uri": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782?recursive=true"
+            },
+            {
+              "method": "GET",
+              "rel": "members",
+              "href": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782/members",
+              "uri": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782/members",
+              "type": "application/vnd.sas.collection",
+              "itemType": "application/vnd.sas.content.folder"
+            },
+            {
+              "method": "POST",
+              "rel": "addMember",
+              "href": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782/members",
+              "uri": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782/members",
+              "type": "application/vnd.sas.content.folder.member",
+              "responseType": "application/vnd.sas.content.folder.member"
+            },
+            {
+              "method": "GET",
+              "rel": "up",
+              "href": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "uri": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "type": "application/vnd.sas.content.folder"
+            },
+            {
+              "method": "GET",
+              "rel": "ancestors",
+              "href": "/folders/ancestors?childUri=/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782",
+              "uri": "/folders/ancestors?childUri=/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782",
+              "type": "application/vnd.sas.content.folder.ancestor"
+            },
+            {
+              "method": "POST",
+              "rel": "createChild",
+              "href": "/folders/folders?parentFolderUri=/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782",
+              "uri": "/folders/folders?parentFolderUri=/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782",
+              "type": "application/vnd.sas.content.folder"
+            },
+            {
+              "method": "PUT",
+              "rel": "validateNewMemberName",
+              "href": "/folders/commons/validations/folders/30b53f79-a573-4fb3-a407-38d3d74e3782/members/@new/name?value={newname}&type={newtype}",
+              "uri": "/folders/commons/validations/folders/30b53f79-a573-4fb3-a407-38d3d74e3782/members/@new/name?value={newname}&type={newtype}",
+              "type": "application/vnd.sas.validation"
+            },
+            {
+              "method": "GET",
+              "rel": "transferExport",
+              "href": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782",
+              "uri": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782",
+              "responseType": "application/vnd.sas.transfer.object"
+            },
+            {
+              "method": "PUT",
+              "rel": "transferImportUpdate",
+              "href": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782",
+              "uri": "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782",
+              "type": "application/vnd.sas.transfer.object",
+              "responseType": "application/vnd.sas.summary"
+            },
+            {
+              "method": "POST",
+              "rel": "transferImport",
+              "href": "/folders/folders",
+              "uri": "/folders/folders",
+              "type": "application/vnd.sas.transfer.object",
+              "responseType": "application/vnd.sas.summary"
+            }
+          ],
+          "version": 2
+        },
+        "content": "eyJmb2xkZXIiOnsiY3JlYXRpb25UaW1lU3RhbXAiOiIyMDIxLTA5LTE3VDE4OjI4OjQzLjgzMzEyN1oiLCJjcmVhdGVkQnkiOiJldmFkbSIsIm1vZGlmaWVkVGltZVN0YW1wIjoiMjAyMS0wOS0xN1QxODoyODo0My44MzMxMjlaIiwibW9kaWZpZWRCeSI6ImV2YWRtIiwidmVyc2lvbiI6MSwiaWQiOiIzMGI1M2Y3OS1hNTczLTRmYjMtYTQwNy0zOGQzZDc0ZTM3ODIiLCJuYW1lIjoiTXkgRm9sZGVyIiwicGFyZW50Rm9sZGVyVXJpIjoiL2ZvbGRlcnMvZm9sZGVycy80MDMxOWMyMi05Y2RlLTQxYTktOTExMy1kYzBmMTNiYmNlYWMiLCJkZXNjcmlwdGlvbiI6Ik15IEZvbGRlciBmb3Igc2JqY2l3IiwidHlwZSI6Im15Rm9sZGVyIiwibWVtYmVyQ291bnQiOjU5LCJwcm9wZXJ0aWVzIjp7ImFsbG93TW92ZSI6ImZhbHNlIn0sImxpbmtzIjpbeyJtZXRob2QiOiJHRVQiLCJyZWwiOiJzZWxmIiwiaHJlZiI6Ii9mb2xkZXJzL2ZvbGRlcnMvMzBiNTNmNzktYTU3My00ZmIzLWE0MDctMzhkM2Q3NGUzNzgyIiwidXJpIjoiL2ZvbGRlcnMvZm9sZGVycy8zMGI1M2Y3OS1hNTczLTRmYjMtYTQwNy0zOGQzZDc0ZTM3ODIiLCJ0eXBlIjoiYXBwbGljYXRpb24vdm5kLnNhcy5jb250ZW50LmZvbGRlciJ9LHsibWV0aG9kIjoiREVMRVRFIiwicmVsIjoiZGVsZXRlIiwiaHJlZiI6Ii9mb2xkZXJzL2ZvbGRlcnMvMzBiNTNmNzktYTU3My00ZmIzLWE0MDctMzhkM2Q3NGUzNzgyIiwidXJpIjoiL2ZvbGRlcnMvZm9sZGVycy8zMGI1M2Y3OS1hNTczLTRmYjMtYTQwNy0zOGQzZDc0ZTM3ODIifSx7Im1ldGhvZCI6IkRFTEVURSIsInJlbCI6ImRlbGV0ZVJlY3Vyc2l2ZWx5IiwiaHJlZiI6Ii9mb2xkZXJzL2ZvbGRlcnMvMzBiNTNmNzktYTU3My00ZmIzLWE0MDctMzhkM2Q3NGUzNzgyP3JlY3Vyc2l2ZT10cnVlIiwidXJpIjoiL2ZvbGRlcnMvZm9sZGVycy8zMGI1M2Y3OS1hNTczLTRmYjMtYTQwNy0zOGQzZDc0ZTM3ODI/cmVjdXJzaXZlPXRydWUifSx7Im1ldGhvZCI6IkdFVCIsInJlbCI6Im1lbWJlcnMiLCJocmVmIjoiL2ZvbGRlcnMvZm9sZGVycy8zMGI1M2Y3OS1hNTczLTRmYjMtYTQwNy0zOGQzZDc0ZTM3ODIvbWVtYmVycyIsInVyaSI6Ii9mb2xkZXJzL2ZvbGRlcnMvMzBiNTNmNzktYTU3My00ZmIzLWE0MDctMzhkM2Q3NGUzNzgyL21lbWJlcnMiLCJ0eXBlIjoiYXBwbGljYXRpb24vdm5kLnNhcy5jb2xsZWN0aW9uIiwiaXRlbVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLmNvbnRlbnQuZm9sZGVyIn0seyJtZXRob2QiOiJQT1NUIiwicmVsIjoiYWRkTWVtYmVyIiwiaHJlZiI6Ii9mb2xkZXJzL2ZvbGRlcnMvMzBiNTNmNzktYTU3My00ZmIzLWE0MDctMzhkM2Q3NGUzNzgyL21lbWJlcnMiLCJ1cmkiOiIvZm9sZGVycy9mb2xkZXJzLzMwYjUzZjc5LWE1NzMtNGZiMy1hNDA3LTM4ZDNkNzRlMzc4Mi9tZW1iZXJzIiwidHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuY29udGVudC5mb2xkZXIubWVtYmVyIiwicmVzcG9uc2VUeXBlIjoiYXBwbGljYXRpb24vdm5kLnNhcy5jb250ZW50LmZvbGRlci5tZW1iZXIifSx7Im1ldGhvZCI6IkdFVCIsInJlbCI6InVwIiwiaHJlZiI6Ii9mb2xkZXJzL2ZvbGRlcnMvNDAzMTljMjItOWNkZS00MWE5LTkxMTMtZGMwZjEzYmJjZWFjIiwidXJpIjoiL2ZvbGRlcnMvZm9sZGVycy80MDMxOWMyMi05Y2RlLTQxYTktOTExMy1kYzBmMTNiYmNlYWMiLCJ0eXBlIjoiYXBwbGljYXRpb24vdm5kLnNhcy5jb250ZW50LmZvbGRlciJ9LHsibWV0aG9kIjoiR0VUIiwicmVsIjoiYW5jZXN0b3JzIiwiaHJlZiI6Ii9mb2xkZXJzL2FuY2VzdG9ycz9jaGlsZFVyaT0vZm9sZGVycy9mb2xkZXJzLzMwYjUzZjc5LWE1NzMtNGZiMy1hNDA3LTM4ZDNkNzRlMzc4MiIsInVyaSI6Ii9mb2xkZXJzL2FuY2VzdG9ycz9jaGlsZFVyaT0vZm9sZGVycy9mb2xkZXJzLzMwYjUzZjc5LWE1NzMtNGZiMy1hNDA3LTM4ZDNkNzRlMzc4MiIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLmNvbnRlbnQuZm9sZGVyLmFuY2VzdG9yIn0seyJtZXRob2QiOiJQT1NUIiwicmVsIjoiY3JlYXRlQ2hpbGQiLCJocmVmIjoiL2ZvbGRlcnMvZm9sZGVycz9wYXJlbnRGb2xkZXJVcmk9L2ZvbGRlcnMvZm9sZGVycy8zMGI1M2Y3OS1hNTczLTRmYjMtYTQwNy0zOGQzZDc0ZTM3ODIiLCJ1cmkiOiIvZm9sZGVycy9mb2xkZXJzP3BhcmVudEZvbGRlclVyaT0vZm9sZGVycy9mb2xkZXJzLzMwYjUzZjc5LWE1NzMtNGZiMy1hNDA3LTM4ZDNkNzRlMzc4MiIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLmNvbnRlbnQuZm9sZGVyIn0seyJtZXRob2QiOiJQVVQiLCJyZWwiOiJ2YWxpZGF0ZU5ld01lbWJlck5hbWUiLCJocmVmIjoiL2ZvbGRlcnMvY29tbW9ucy92YWxpZGF0aW9ucy9mb2xkZXJzLzMwYjUzZjc5LWE1NzMtNGZiMy1hNDA3LTM4ZDNkNzRlMzc4Mi9tZW1iZXJzL0BuZXcvbmFtZT92YWx1ZT17bmV3bmFtZX1cdTAwMjZ0eXBlPXtuZXd0eXBlfSIsInVyaSI6Ii9mb2xkZXJzL2NvbW1vbnMvdmFsaWRhdGlvbnMvZm9sZGVycy8zMGI1M2Y3OS1hNTczLTRmYjMtYTQwNy0zOGQzZDc0ZTM3ODIvbWVtYmVycy9AbmV3L25hbWU/dmFsdWU9e25ld25hbWV9XHUwMDI2dHlwZT17bmV3dHlwZX0iLCJ0eXBlIjoiYXBwbGljYXRpb24vdm5kLnNhcy52YWxpZGF0aW9uIn0seyJtZXRob2QiOiJHRVQiLCJyZWwiOiJ0cmFuc2ZlckV4cG9ydCIsImhyZWYiOiIvZm9sZGVycy9mb2xkZXJzLzMwYjUzZjc5LWE1NzMtNGZiMy1hNDA3LTM4ZDNkNzRlMzc4MiIsInVyaSI6Ii9mb2xkZXJzL2ZvbGRlcnMvMzBiNTNmNzktYTU3My00ZmIzLWE0MDctMzhkM2Q3NGUzNzgyIiwicmVzcG9uc2VUeXBlIjoiYXBwbGljYXRpb24vdm5kLnNhcy50cmFuc2Zlci5vYmplY3QifSx7Im1ldGhvZCI6IlBVVCIsInJlbCI6InRyYW5zZmVySW1wb3J0VXBkYXRlIiwiaHJlZiI6Ii9mb2xkZXJzL2ZvbGRlcnMvMzBiNTNmNzktYTU3My00ZmIzLWE0MDctMzhkM2Q3NGUzNzgyIiwidXJpIjoiL2ZvbGRlcnMvZm9sZGVycy8zMGI1M2Y3OS1hNTczLTRmYjMtYTQwNy0zOGQzZDc0ZTM3ODIiLCJ0eXBlIjoiYXBwbGljYXRpb24vdm5kLnNhcy50cmFuc2Zlci5vYmplY3QiLCJyZXNwb25zZVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLnN1bW1hcnkifSx7Im1ldGhvZCI6IlBPU1QiLCJyZWwiOiJ0cmFuc2ZlckltcG9ydCIsImhyZWYiOiIvZm9sZGVycy9mb2xkZXJzIiwidXJpIjoiL2ZvbGRlcnMvZm9sZGVycyIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLnRyYW5zZmVyLm9iamVjdCIsInJlc3BvbnNlVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuc3VtbWFyeSJ9XX0sInVzZXJOYW1lIjoic2JqY2l3In0=",
+        "state": "enabled",
+        "connectors": [],
+        "substitutions": {}
+      },
+      "connectors": [
+        {
+          "id": "74e5a2b8-4234-46de-9b16-e22b1a00150b",
+          "uri": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+          "relatedUris": [
+            "/folders/folders/30b53f79-a573-4fb3-a407-38d3d74e3782"
+          ],
+          "name": "sbjciw",
+          "contentType": "application/vnd.sas.content.folder+json",
+          "type": "parentFolder",
+          "hints": {},
+          "links": [
+            {
+              "method": "GET",
+              "rel": "self",
+              "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/connectors/74e5a2b8-4234-46de-9b16-e22b1a00150b",
+              "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/connectors/74e5a2b8-4234-46de-9b16-e22b1a00150b",
+              "type": "application/vnd.sas.transfer.connector"
+            }
+          ],
+          "forceMapping": false
+        }
+      ]
+    },
+    {
+      "transferObject": {
+        "links": [
+          {
+            "method": "GET",
+            "rel": "self",
+            "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/objects/fa69b55d-8674-4718-b0dc-41dec1733cb4",
+            "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/objects/fa69b55d-8674-4718-b0dc-41dec1733cb4",
+            "type": "application/vnd.sas.transfer.object"
+          }
+        ],
+        "version": 2,
+        "id": "fa69b55d-8674-4718-b0dc-41dec1733cb4",
+        "summary": {
+          "creationTimeStamp": "2021-09-17T18:28:41.564Z",
+          "modifiedTimeStamp": "2021-09-17T18:28:41.564Z",
+          "createdBy": "evadm",
+          "modifiedBy": "evadm",
+          "id": "40319c22-9cde-41a9-9113-dc0f13bbceac",
+          "type": "folder",
+          "name": "sbjciw",
+          "description": "The user folder for sbjciw",
+          "links": [
+            {
+              "method": "GET",
+              "rel": "self",
+              "href": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "uri": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "type": "application/vnd.sas.content.folder"
+            },
+            {
+              "method": "DELETE",
+              "rel": "delete",
+              "href": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "uri": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac"
+            },
+            {
+              "method": "DELETE",
+              "rel": "deleteRecursively",
+              "href": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac?recursive=true",
+              "uri": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac?recursive=true"
+            },
+            {
+              "method": "GET",
+              "rel": "members",
+              "href": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac/members",
+              "uri": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac/members",
+              "type": "application/vnd.sas.collection",
+              "itemType": "application/vnd.sas.content.folder"
+            },
+            {
+              "method": "POST",
+              "rel": "addMember",
+              "href": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac/members",
+              "uri": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac/members",
+              "type": "application/vnd.sas.content.folder.member",
+              "responseType": "application/vnd.sas.content.folder.member"
+            },
+            {
+              "method": "GET",
+              "rel": "up",
+              "href": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "uri": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "type": "application/vnd.sas.content.folder"
+            },
+            {
+              "method": "GET",
+              "rel": "ancestors",
+              "href": "/folders/ancestors?childUri=/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "uri": "/folders/ancestors?childUri=/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "type": "application/vnd.sas.content.folder.ancestor"
+            },
+            {
+              "method": "POST",
+              "rel": "createChild",
+              "href": "/folders/folders?parentFolderUri=/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "uri": "/folders/folders?parentFolderUri=/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "type": "application/vnd.sas.content.folder"
+            },
+            {
+              "method": "PUT",
+              "rel": "validateNewMemberName",
+              "href": "/folders/commons/validations/folders/40319c22-9cde-41a9-9113-dc0f13bbceac/members/@new/name?value={newname}&type={newtype}",
+              "uri": "/folders/commons/validations/folders/40319c22-9cde-41a9-9113-dc0f13bbceac/members/@new/name?value={newname}&type={newtype}",
+              "type": "application/vnd.sas.validation"
+            },
+            {
+              "method": "GET",
+              "rel": "transferExport",
+              "href": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "uri": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "responseType": "application/vnd.sas.transfer.object"
+            },
+            {
+              "method": "PUT",
+              "rel": "transferImportUpdate",
+              "href": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "uri": "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac",
+              "type": "application/vnd.sas.transfer.object",
+              "responseType": "application/vnd.sas.summary"
+            },
+            {
+              "method": "POST",
+              "rel": "transferImport",
+              "href": "/folders/folders",
+              "uri": "/folders/folders",
+              "type": "application/vnd.sas.transfer.object",
+              "responseType": "application/vnd.sas.summary"
+            }
+          ],
+          "version": 2
+        },
+        "content": "eyJmb2xkZXIiOnsiY3JlYXRpb25UaW1lU3RhbXAiOiIyMDIxLTA5LTE3VDE4OjI4OjQxLjU2NDkxN1oiLCJjcmVhdGVkQnkiOiJldmFkbSIsIm1vZGlmaWVkVGltZVN0YW1wIjoiMjAyMS0wOS0xN1QxODoyODo0MS41NjQ5MThaIiwibW9kaWZpZWRCeSI6ImV2YWRtIiwidmVyc2lvbiI6MSwiaWQiOiI0MDMxOWMyMi05Y2RlLTQxYTktOTExMy1kYzBmMTNiYmNlYWMiLCJuYW1lIjoic2JqY2l3IiwicGFyZW50Rm9sZGVyVXJpIjoiL2ZvbGRlcnMvZm9sZGVycy9hZTkzOGM2Yy1jODdlLTQzYjgtYWEwOC0zM2QyZTg5ZWEzMzciLCJkZXNjcmlwdGlvbiI6IlRoZSB1c2VyIGZvbGRlciBmb3Igc2JqY2l3IiwidHlwZSI6InVzZXJGb2xkZXIiLCJtZW1iZXJDb3VudCI6NSwicHJvcGVydGllcyI6eyJhbGxvd01vdmUiOiJmYWxzZSIsImhpZGRlbiI6InRydWUifSwibGlua3MiOlt7Im1ldGhvZCI6IkdFVCIsInJlbCI6InNlbGYiLCJocmVmIjoiL2ZvbGRlcnMvZm9sZGVycy80MDMxOWMyMi05Y2RlLTQxYTktOTExMy1kYzBmMTNiYmNlYWMiLCJ1cmkiOiIvZm9sZGVycy9mb2xkZXJzLzQwMzE5YzIyLTljZGUtNDFhOS05MTEzLWRjMGYxM2JiY2VhYyIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLmNvbnRlbnQuZm9sZGVyIn0seyJtZXRob2QiOiJERUxFVEUiLCJyZWwiOiJkZWxldGUiLCJocmVmIjoiL2ZvbGRlcnMvZm9sZGVycy80MDMxOWMyMi05Y2RlLTQxYTktOTExMy1kYzBmMTNiYmNlYWMiLCJ1cmkiOiIvZm9sZGVycy9mb2xkZXJzLzQwMzE5YzIyLTljZGUtNDFhOS05MTEzLWRjMGYxM2JiY2VhYyJ9LHsibWV0aG9kIjoiREVMRVRFIiwicmVsIjoiZGVsZXRlUmVjdXJzaXZlbHkiLCJocmVmIjoiL2ZvbGRlcnMvZm9sZGVycy80MDMxOWMyMi05Y2RlLTQxYTktOTExMy1kYzBmMTNiYmNlYWM/cmVjdXJzaXZlPXRydWUiLCJ1cmkiOiIvZm9sZGVycy9mb2xkZXJzLzQwMzE5YzIyLTljZGUtNDFhOS05MTEzLWRjMGYxM2JiY2VhYz9yZWN1cnNpdmU9dHJ1ZSJ9LHsibWV0aG9kIjoiR0VUIiwicmVsIjoibWVtYmVycyIsImhyZWYiOiIvZm9sZGVycy9mb2xkZXJzLzQwMzE5YzIyLTljZGUtNDFhOS05MTEzLWRjMGYxM2JiY2VhYy9tZW1iZXJzIiwidXJpIjoiL2ZvbGRlcnMvZm9sZGVycy80MDMxOWMyMi05Y2RlLTQxYTktOTExMy1kYzBmMTNiYmNlYWMvbWVtYmVycyIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLmNvbGxlY3Rpb24iLCJpdGVtVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuY29udGVudC5mb2xkZXIifSx7Im1ldGhvZCI6IlBPU1QiLCJyZWwiOiJhZGRNZW1iZXIiLCJocmVmIjoiL2ZvbGRlcnMvZm9sZGVycy80MDMxOWMyMi05Y2RlLTQxYTktOTExMy1kYzBmMTNiYmNlYWMvbWVtYmVycyIsInVyaSI6Ii9mb2xkZXJzL2ZvbGRlcnMvNDAzMTljMjItOWNkZS00MWE5LTkxMTMtZGMwZjEzYmJjZWFjL21lbWJlcnMiLCJ0eXBlIjoiYXBwbGljYXRpb24vdm5kLnNhcy5jb250ZW50LmZvbGRlci5tZW1iZXIiLCJyZXNwb25zZVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLmNvbnRlbnQuZm9sZGVyLm1lbWJlciJ9LHsibWV0aG9kIjoiR0VUIiwicmVsIjoidXAiLCJocmVmIjoiL2ZvbGRlcnMvZm9sZGVycy9hZTkzOGM2Yy1jODdlLTQzYjgtYWEwOC0zM2QyZTg5ZWEzMzciLCJ1cmkiOiIvZm9sZGVycy9mb2xkZXJzL2FlOTM4YzZjLWM4N2UtNDNiOC1hYTA4LTMzZDJlODllYTMzNyIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLmNvbnRlbnQuZm9sZGVyIn0seyJtZXRob2QiOiJHRVQiLCJyZWwiOiJhbmNlc3RvcnMiLCJocmVmIjoiL2ZvbGRlcnMvYW5jZXN0b3JzP2NoaWxkVXJpPS9mb2xkZXJzL2ZvbGRlcnMvNDAzMTljMjItOWNkZS00MWE5LTkxMTMtZGMwZjEzYmJjZWFjIiwidXJpIjoiL2ZvbGRlcnMvYW5jZXN0b3JzP2NoaWxkVXJpPS9mb2xkZXJzL2ZvbGRlcnMvNDAzMTljMjItOWNkZS00MWE5LTkxMTMtZGMwZjEzYmJjZWFjIiwidHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuY29udGVudC5mb2xkZXIuYW5jZXN0b3IifSx7Im1ldGhvZCI6IlBPU1QiLCJyZWwiOiJjcmVhdGVDaGlsZCIsImhyZWYiOiIvZm9sZGVycy9mb2xkZXJzP3BhcmVudEZvbGRlclVyaT0vZm9sZGVycy9mb2xkZXJzLzQwMzE5YzIyLTljZGUtNDFhOS05MTEzLWRjMGYxM2JiY2VhYyIsInVyaSI6Ii9mb2xkZXJzL2ZvbGRlcnM/cGFyZW50Rm9sZGVyVXJpPS9mb2xkZXJzL2ZvbGRlcnMvNDAzMTljMjItOWNkZS00MWE5LTkxMTMtZGMwZjEzYmJjZWFjIiwidHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuY29udGVudC5mb2xkZXIifSx7Im1ldGhvZCI6IlBVVCIsInJlbCI6InZhbGlkYXRlTmV3TWVtYmVyTmFtZSIsImhyZWYiOiIvZm9sZGVycy9jb21tb25zL3ZhbGlkYXRpb25zL2ZvbGRlcnMvNDAzMTljMjItOWNkZS00MWE5LTkxMTMtZGMwZjEzYmJjZWFjL21lbWJlcnMvQG5ldy9uYW1lP3ZhbHVlPXtuZXduYW1lfVx1MDAyNnR5cGU9e25ld3R5cGV9IiwidXJpIjoiL2ZvbGRlcnMvY29tbW9ucy92YWxpZGF0aW9ucy9mb2xkZXJzLzQwMzE5YzIyLTljZGUtNDFhOS05MTEzLWRjMGYxM2JiY2VhYy9tZW1iZXJzL0BuZXcvbmFtZT92YWx1ZT17bmV3bmFtZX1cdTAwMjZ0eXBlPXtuZXd0eXBlfSIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLnZhbGlkYXRpb24ifSx7Im1ldGhvZCI6IkdFVCIsInJlbCI6InRyYW5zZmVyRXhwb3J0IiwiaHJlZiI6Ii9mb2xkZXJzL2ZvbGRlcnMvNDAzMTljMjItOWNkZS00MWE5LTkxMTMtZGMwZjEzYmJjZWFjIiwidXJpIjoiL2ZvbGRlcnMvZm9sZGVycy80MDMxOWMyMi05Y2RlLTQxYTktOTExMy1kYzBmMTNiYmNlYWMiLCJyZXNwb25zZVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLnRyYW5zZmVyLm9iamVjdCJ9LHsibWV0aG9kIjoiUFVUIiwicmVsIjoidHJhbnNmZXJJbXBvcnRVcGRhdGUiLCJocmVmIjoiL2ZvbGRlcnMvZm9sZGVycy80MDMxOWMyMi05Y2RlLTQxYTktOTExMy1kYzBmMTNiYmNlYWMiLCJ1cmkiOiIvZm9sZGVycy9mb2xkZXJzLzQwMzE5YzIyLTljZGUtNDFhOS05MTEzLWRjMGYxM2JiY2VhYyIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLnRyYW5zZmVyLm9iamVjdCIsInJlc3BvbnNlVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuc3VtbWFyeSJ9LHsibWV0aG9kIjoiUE9TVCIsInJlbCI6InRyYW5zZmVySW1wb3J0IiwiaHJlZiI6Ii9mb2xkZXJzL2ZvbGRlcnMiLCJ1cmkiOiIvZm9sZGVycy9mb2xkZXJzIiwidHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMudHJhbnNmZXIub2JqZWN0IiwicmVzcG9uc2VUeXBlIjoiYXBwbGljYXRpb24vdm5kLnNhcy5zdW1tYXJ5In1dfSwidXNlck5hbWUiOiJzYmpjaXcifQ==",
+        "state": "enabled",
+        "connectors": [],
+        "substitutions": {}
+      },
+      "connectors": [
+        {
+          "id": "4c3d6719-1eac-494a-a1e6-fd5b41d63172",
+          "uri": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+          "relatedUris": [
+            "/folders/folders/40319c22-9cde-41a9-9113-dc0f13bbceac"
+          ],
+          "name": "Users",
+          "contentType": "application/vnd.sas.content.folder+json",
+          "type": "parentFolder",
+          "hints": {},
+          "links": [
+            {
+              "method": "GET",
+              "rel": "self",
+              "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/connectors/4c3d6719-1eac-494a-a1e6-fd5b41d63172",
+              "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/connectors/4c3d6719-1eac-494a-a1e6-fd5b41d63172",
+              "type": "application/vnd.sas.transfer.connector"
+            }
+          ],
+          "forceMapping": false
+        }
+      ]
+    },
+    {
+      "transferObject": {
+        "links": [
+          {
+            "method": "GET",
+            "rel": "self",
+            "href": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/objects/4e203ea4-6ec8-4fa8-a8cf-9c7aa94b36f8",
+            "uri": "/transfer/packages/1ab75cee-b9f0-4ffa-a3bf-4b8ddaf81cef/objects/4e203ea4-6ec8-4fa8-a8cf-9c7aa94b36f8",
+            "type": "application/vnd.sas.transfer.object"
+          }
+        ],
+        "version": 2,
+        "id": "4e203ea4-6ec8-4fa8-a8cf-9c7aa94b36f8",
+        "summary": {
+          "creationTimeStamp": "2021-09-17T16:39:48.898Z",
+          "modifiedTimeStamp": "2021-09-17T16:39:48.898Z",
+          "createdBy": "anonymous",
+          "modifiedBy": "anonymous",
+          "id": "ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+          "type": "folder",
+          "name": "Users",
+          "description": "Base Folder for all user folders.",
+          "links": [
+            {
+              "method": "GET",
+              "rel": "self",
+              "href": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "uri": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "type": "application/vnd.sas.content.folder"
+            },
+            {
+              "method": "DELETE",
+              "rel": "delete",
+              "href": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "uri": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337"
+            },
+            {
+              "method": "DELETE",
+              "rel": "deleteRecursively",
+              "href": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337?recursive=true",
+              "uri": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337?recursive=true"
+            },
+            {
+              "method": "GET",
+              "rel": "members",
+              "href": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337/members",
+              "uri": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337/members",
+              "type": "application/vnd.sas.collection",
+              "itemType": "application/vnd.sas.content.folder"
+            },
+            {
+              "method": "POST",
+              "rel": "addMember",
+              "href": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337/members",
+              "uri": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337/members",
+              "type": "application/vnd.sas.content.folder.member",
+              "responseType": "application/vnd.sas.content.folder.member"
+            },
+            {
+              "method": "GET",
+              "rel": "ancestors",
+              "href": "/folders/ancestors?childUri=/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "uri": "/folders/ancestors?childUri=/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "type": "application/vnd.sas.content.folder.ancestor"
+            },
+            {
+              "method": "POST",
+              "rel": "createChild",
+              "href": "/folders/folders?parentFolderUri=/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "uri": "/folders/folders?parentFolderUri=/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "type": "application/vnd.sas.content.folder"
+            },
+            {
+              "method": "PUT",
+              "rel": "validateNewMemberName",
+              "href": "/folders/commons/validations/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337/members/@new/name?value={newname}&type={newtype}",
+              "uri": "/folders/commons/validations/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337/members/@new/name?value={newname}&type={newtype}",
+              "type": "application/vnd.sas.validation"
+            },
+            {
+              "method": "GET",
+              "rel": "transferExport",
+              "href": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "uri": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "responseType": "application/vnd.sas.transfer.object"
+            },
+            {
+              "method": "PUT",
+              "rel": "transferImportUpdate",
+              "href": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "uri": "/folders/folders/ae938c6c-c87e-43b8-aa08-33d2e89ea337",
+              "type": "application/vnd.sas.transfer.object",
+              "responseType": "application/vnd.sas.summary"
+            },
+            {
+              "method": "POST",
+              "rel": "transferImport",
+              "href": "/folders/folders",
+              "uri": "/folders/folders",
+              "type": "application/vnd.sas.transfer.object",
+              "responseType": "application/vnd.sas.summary"
+            }
+          ],
+          "version": 2
+        },
+        "content": "eyJmb2xkZXIiOnsiY3JlYXRpb25UaW1lU3RhbXAiOiIyMDIxLTA5LTE3VDE2OjM5OjQ4Ljg5ODM4NVoiLCJjcmVhdGVkQnkiOiJhbm9ueW1vdXMiLCJtb2RpZmllZFRpbWVTdGFtcCI6IjIwMjEtMDktMTdUMTY6Mzk6NDguODk4Mzg3WiIsIm1vZGlmaWVkQnkiOiJhbm9ueW1vdXMiLCJ2ZXJzaW9uIjoxLCJpZCI6ImFlOTM4YzZjLWM4N2UtNDNiOC1hYTA4LTMzZDJlODllYTMzNyIsIm5hbWUiOiJVc2VycyIsImRlc2NyaXB0aW9uIjoiQmFzZSBGb2xkZXIgZm9yIGFsbCB1c2VyIGZvbGRlcnMuIiwidHlwZSI6InVzZXJSb290IiwibWVtYmVyQ291bnQiOjQ5LCJwcm9wZXJ0aWVzIjp7ImFsbG93TW92ZSI6ImZhbHNlIiwidXVpZCI6ImU5MTE2OTdlLWZlNTMtNDk3Yy1hMjdjLTkwOWM3NTdiYTA0YSJ9LCJsaW5rcyI6W3sibWV0aG9kIjoiR0VUIiwicmVsIjoic2VsZiIsImhyZWYiOiIvZm9sZGVycy9mb2xkZXJzL2FlOTM4YzZjLWM4N2UtNDNiOC1hYTA4LTMzZDJlODllYTMzNyIsInVyaSI6Ii9mb2xkZXJzL2ZvbGRlcnMvYWU5MzhjNmMtYzg3ZS00M2I4LWFhMDgtMzNkMmU4OWVhMzM3IiwidHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuY29udGVudC5mb2xkZXIifSx7Im1ldGhvZCI6IkRFTEVURSIsInJlbCI6ImRlbGV0ZSIsImhyZWYiOiIvZm9sZGVycy9mb2xkZXJzL2FlOTM4YzZjLWM4N2UtNDNiOC1hYTA4LTMzZDJlODllYTMzNyIsInVyaSI6Ii9mb2xkZXJzL2ZvbGRlcnMvYWU5MzhjNmMtYzg3ZS00M2I4LWFhMDgtMzNkMmU4OWVhMzM3In0seyJtZXRob2QiOiJERUxFVEUiLCJyZWwiOiJkZWxldGVSZWN1cnNpdmVseSIsImhyZWYiOiIvZm9sZGVycy9mb2xkZXJzL2FlOTM4YzZjLWM4N2UtNDNiOC1hYTA4LTMzZDJlODllYTMzNz9yZWN1cnNpdmU9dHJ1ZSIsInVyaSI6Ii9mb2xkZXJzL2ZvbGRlcnMvYWU5MzhjNmMtYzg3ZS00M2I4LWFhMDgtMzNkMmU4OWVhMzM3P3JlY3Vyc2l2ZT10cnVlIn0seyJtZXRob2QiOiJHRVQiLCJyZWwiOiJtZW1iZXJzIiwiaHJlZiI6Ii9mb2xkZXJzL2ZvbGRlcnMvYWU5MzhjNmMtYzg3ZS00M2I4LWFhMDgtMzNkMmU4OWVhMzM3L21lbWJlcnMiLCJ1cmkiOiIvZm9sZGVycy9mb2xkZXJzL2FlOTM4YzZjLWM4N2UtNDNiOC1hYTA4LTMzZDJlODllYTMzNy9tZW1iZXJzIiwidHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuY29sbGVjdGlvbiIsIml0ZW1UeXBlIjoiYXBwbGljYXRpb24vdm5kLnNhcy5jb250ZW50LmZvbGRlciJ9LHsibWV0aG9kIjoiUE9TVCIsInJlbCI6ImFkZE1lbWJlciIsImhyZWYiOiIvZm9sZGVycy9mb2xkZXJzL2FlOTM4YzZjLWM4N2UtNDNiOC1hYTA4LTMzZDJlODllYTMzNy9tZW1iZXJzIiwidXJpIjoiL2ZvbGRlcnMvZm9sZGVycy9hZTkzOGM2Yy1jODdlLTQzYjgtYWEwOC0zM2QyZTg5ZWEzMzcvbWVtYmVycyIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLmNvbnRlbnQuZm9sZGVyLm1lbWJlciIsInJlc3BvbnNlVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuY29udGVudC5mb2xkZXIubWVtYmVyIn0seyJtZXRob2QiOiJHRVQiLCJyZWwiOiJhbmNlc3RvcnMiLCJocmVmIjoiL2ZvbGRlcnMvYW5jZXN0b3JzP2NoaWxkVXJpPS9mb2xkZXJzL2ZvbGRlcnMvYWU5MzhjNmMtYzg3ZS00M2I4LWFhMDgtMzNkMmU4OWVhMzM3IiwidXJpIjoiL2ZvbGRlcnMvYW5jZXN0b3JzP2NoaWxkVXJpPS9mb2xkZXJzL2ZvbGRlcnMvYWU5MzhjNmMtYzg3ZS00M2I4LWFhMDgtMzNkMmU4OWVhMzM3IiwidHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuY29udGVudC5mb2xkZXIuYW5jZXN0b3IifSx7Im1ldGhvZCI6IlBPU1QiLCJyZWwiOiJjcmVhdGVDaGlsZCIsImhyZWYiOiIvZm9sZGVycy9mb2xkZXJzP3BhcmVudEZvbGRlclVyaT0vZm9sZGVycy9mb2xkZXJzL2FlOTM4YzZjLWM4N2UtNDNiOC1hYTA4LTMzZDJlODllYTMzNyIsInVyaSI6Ii9mb2xkZXJzL2ZvbGRlcnM/cGFyZW50Rm9sZGVyVXJpPS9mb2xkZXJzL2ZvbGRlcnMvYWU5MzhjNmMtYzg3ZS00M2I4LWFhMDgtMzNkMmU4OWVhMzM3IiwidHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuY29udGVudC5mb2xkZXIifSx7Im1ldGhvZCI6IlBVVCIsInJlbCI6InZhbGlkYXRlTmV3TWVtYmVyTmFtZSIsImhyZWYiOiIvZm9sZGVycy9jb21tb25zL3ZhbGlkYXRpb25zL2ZvbGRlcnMvYWU5MzhjNmMtYzg3ZS00M2I4LWFhMDgtMzNkMmU4OWVhMzM3L21lbWJlcnMvQG5ldy9uYW1lP3ZhbHVlPXtuZXduYW1lfVx1MDAyNnR5cGU9e25ld3R5cGV9IiwidXJpIjoiL2ZvbGRlcnMvY29tbW9ucy92YWxpZGF0aW9ucy9mb2xkZXJzL2FlOTM4YzZjLWM4N2UtNDNiOC1hYTA4LTMzZDJlODllYTMzNy9tZW1iZXJzL0BuZXcvbmFtZT92YWx1ZT17bmV3bmFtZX1cdTAwMjZ0eXBlPXtuZXd0eXBlfSIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLnZhbGlkYXRpb24ifSx7Im1ldGhvZCI6IkdFVCIsInJlbCI6InRyYW5zZmVyRXhwb3J0IiwiaHJlZiI6Ii9mb2xkZXJzL2ZvbGRlcnMvYWU5MzhjNmMtYzg3ZS00M2I4LWFhMDgtMzNkMmU4OWVhMzM3IiwidXJpIjoiL2ZvbGRlcnMvZm9sZGVycy9hZTkzOGM2Yy1jODdlLTQzYjgtYWEwOC0zM2QyZTg5ZWEzMzciLCJyZXNwb25zZVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLnRyYW5zZmVyLm9iamVjdCJ9LHsibWV0aG9kIjoiUFVUIiwicmVsIjoidHJhbnNmZXJJbXBvcnRVcGRhdGUiLCJocmVmIjoiL2ZvbGRlcnMvZm9sZGVycy9hZTkzOGM2Yy1jODdlLTQzYjgtYWEwOC0zM2QyZTg5ZWEzMzciLCJ1cmkiOiIvZm9sZGVycy9mb2xkZXJzL2FlOTM4YzZjLWM4N2UtNDNiOC1hYTA4LTMzZDJlODllYTMzNyIsInR5cGUiOiJhcHBsaWNhdGlvbi92bmQuc2FzLnRyYW5zZmVyLm9iamVjdCIsInJlc3BvbnNlVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMuc3VtbWFyeSJ9LHsibWV0aG9kIjoiUE9TVCIsInJlbCI6InRyYW5zZmVySW1wb3J0IiwiaHJlZiI6Ii9mb2xkZXJzL2ZvbGRlcnMiLCJ1cmkiOiIvZm9sZGVycy9mb2xkZXJzIiwidHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5zYXMudHJhbnNmZXIub2JqZWN0IiwicmVzcG9uc2VUeXBlIjoiYXBwbGljYXRpb24vdm5kLnNhcy5zdW1tYXJ5In1dfX0=",
+        "state": "enabled",
+        "connectors": [],
+        "substitutions": {}
+      },
+      "connectors": []
+    }
+  ]
+}
